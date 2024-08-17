@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BG"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/logo"
+        android:layout_marginTop="50sp"
+        android:textAlignment="center"
+        android:textColor="@color/text_color"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/user_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:ems="10"
+        android:backgroundTint="@color/text_color"
+        android:layout_marginTop="100sp"
+        android:layout_marginHorizontal="50sp"
+        android:inputType="text"
+        android:textColorHint="@color/text_color_hint"
+        android:hint="@string/hint_user_fieald" />
+
+    <Button
+        android:id="@+id/main_btn"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_below="@+id/user_field"
+        android:layout_marginHorizontal="50sp"
+        android:text="@string/main_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_btn"
+        android:fontFamily="@font/montserrat_bold"
+
+        android:layout_marginTop="50sp"
+        android:textAlignment="center"
+        android:textColor="@color/text_color_hint"
+        android:textSize="20sp" />
+
+</RelativeLayout>

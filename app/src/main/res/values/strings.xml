@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rent Car</string>
+    <string name="logo">Аренда самых мощных тачек онлайн без смс регистрации</string>
+    <string name="hint_user_fieald">Введите город</string>
+    <string name="main_button">Найти тачки</string>
+    <string name="no_user_input">Введи свой блядский городок</string>
+    <string name="user_input">хаахах ты серьёзно хочешь взять в своём мухосранске тачку?</string>
+    <string name="user_input_Moscow">Ты что настолько блять беден что в москве не можешь взять себе тачку нормальную?</string>
+</resources>
